@@ -5,6 +5,9 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Recv {
 
     private final static String QUEUE_NAME = "hello";
